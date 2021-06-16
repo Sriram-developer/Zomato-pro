@@ -191,8 +191,9 @@ section{
     height: 200px;
     width: 120%;
 }
+/*Email & footer & quote*/
 .text-x1{
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     line-height: 2rem;
     color: #1d3557;
     font-weight: 900;
@@ -201,7 +202,7 @@ section{
     margin-top: 3rem;
     width: 100%;
     padding: 15px;
-    margin-right: auto;
+    margin-right:auto;
     margin-left: auto;
   }
 
@@ -217,9 +218,15 @@ section{
     font-weight: 700;
     padding: 0.5rem;
     border-radius: 4px;
+    margin-top: 6px;
+    margin-right: 10px;
   }
   .email__input::placeholder {
     color: #bdbcbc;
+  }
+  .button__email{
+      padding: 10px;
+      margin-top: 3px;
   }
   footer {
     display: flex;
@@ -233,6 +240,7 @@ section{
       #dd2476 51%,
       #ff512f 100%
     );
+    
   }
   footer > img {
     width: 300px;
@@ -244,6 +252,8 @@ section{
   }
   footer > ul > li {
     margin: 5px 0;
+    list-style-type: none;
+
   }
   
   .quote__container {
@@ -354,7 +364,7 @@ section{
     .email__subcribe__container {
         display: flex;
         justify-content: center;
-      }
+     }
       .email__input {
         width: 20rem;
       }
@@ -387,7 +397,7 @@ section{
         justify-content: space-evenly;
       }
     
-
+      
     
 }
 
@@ -421,11 +431,14 @@ section{
         max-width: 1250px;
 
     }
-.text-x1{
-    font-size: 3em;
-    line-height: 1;
-}    
-    
+    .text-x1{
+    font-size: 2em;
+    line-height: 2;
+    }    
+   .button__email{
+       padding: 10px;
+       margin-top: 3px;
+   } 
 }
 
 
